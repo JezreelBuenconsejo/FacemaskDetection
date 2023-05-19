@@ -1,0 +1,25 @@
+#webcam-container{
+    width:65vh;
+    height:65vh;
+    min-width: 300px;
+    min-height: 300px;
+    margin: auto;
+    padding:15px;
+}
+#label-container .No-Facemask{
+    color:red;
+}
+#label-container .Has-Facemask{
+    color:green;
+}
+#results-container{
+    display: none;
+}
+#results-container.show{
+    display: block;
+}
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+}
